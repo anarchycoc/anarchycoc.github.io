@@ -77,6 +77,7 @@ main {
 }
 
 .SideBarReg{
+	display: none;
 	position: absolute;
 	top: 1730px;
 	left: 200px;
