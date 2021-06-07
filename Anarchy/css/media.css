@@ -1,5 +1,17 @@
-@media (max-width: 1200px) {
-  .mainteam_table a {
-    font-size: 11px;
+@media (max-width: 1280px) {
+  .content .sidebar_l {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .content .main {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .content .sidebar_r {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
   }
 }

@@ -1,7 +1,13 @@
-@media (max-width: 1200px) {
-  .mainteam {
-    &_table a {
-      font-size: 11px;
+@media (max-width: 1280px) {
+  .content {
+    .sidebar_l {
+      order: 2;
+    }
+    .main {
+      order: 1;
+    }
+    .sidebar_r {
+      order: 3;
     }
   }
 }
