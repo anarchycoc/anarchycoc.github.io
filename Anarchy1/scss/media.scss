@@ -1,0 +1,13 @@
+@media (min-width: 992px) and (max-width: 1399px) {
+  .content {
+    .sidebar_l {
+      order: 2;
+    }
+    .main {
+      order: 1;
+    }
+    .sidebar_r {
+      order: 3;
+    }
+  }
+}
